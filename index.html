@@ -1,11 +1,13 @@
 <html>
+<link rel="stylesheet" type="text/css" href="style.css">
+
 <body>
 
-<div>
-  Celsius <input type="radio" name="conversion_type" value="celsius" />
-  Faren <input type="radio" name="conversion_type" value="fahrenheit" />
+<div class="options">
+  Celsius <input type="radio" name="conversion_type" value="celsius" checked="checked" />
+  Fahrenheit <input type="radio" name="conversion_type" value="fahrenheit" />
 </div>
-<button id="converter">Convert</button>
+<button class="conv" id="converter">Convert</button>
 <input id="temperature" type="text"></input>
 
 <script src="practice.js"></script>
